@@ -11,10 +11,10 @@
         margin-bottom: 1rem;
         font-weight: 500;
         line-height: 1.1;
-        @include Responesive(MD) {
+        @include Responsive(MD) {
           font-size: 3.6rem;
         }
-        @include Responesive(XS) {
+        @include Responsive(XS) {
           font-size: 2.4rem;
         }
       }
@@ -23,7 +23,7 @@
           font-size: 1.6rem;
           margin-bottom: 1.4rem;
           line-height: 1.5;
-          @include Responesive(MD) {
+          @include Responsive(MD) {
             font-size: 1.5rem;
             padding-left: 15px;
             padding-right: 15px;
@@ -37,7 +37,7 @@
         &:last-of-type {
           padding-bottom: 2rem;
           padding: 15px 20px;
-          @include Responesive(SS) {
+          @include Responsive(SS) {
             padding: 15px 0;
           }
         }
@@ -62,14 +62,14 @@
     }
     .footer__search {
       background-color: #333333;
-      @include Responesive(MD) {
+      @include Responsive(MD) {
         padding-top: 25px;
         padding-bottom: 25px;
       }
       display: flex;
       justify-content: space-between;
       .footer__search-left {
-        @include Responesive(MD) {
+        @include Responsive(MD) {
           display: none;
         }
         position: relative;
@@ -131,7 +131,7 @@
       }
     }
     .footer__main {
-      @include Responesive(MD) {
+      @include Responsive(MD) {
         padding-top: 0;
         padding-bottom: 0;
       }
@@ -145,7 +145,7 @@
       .phoneOverlay2 {
         display: none !important;
       }
-      @include Responesive(LG) {
+      @include Responsive(LG) {
         .destopOverlay {
           display: none !important;
         }
@@ -177,7 +177,7 @@
           }
         }
       }
-      @include Responesive(MD) {
+      @include Responsive(MD) {
         .destopOverlay {
           display: none !important;
         }
@@ -208,7 +208,7 @@
             li {
               padding: 5px 25px;
               padding-left: 0;
-              @include Responesive(MD) {
+              @include Responsive(MD) {
                 padding-left: 25px;
               }
               a {
@@ -231,7 +231,7 @@
       .footer__secondary-content {
         display: flex;
         justify-content: space-between;
-        @include Responesive(MD) {
+        @include Responsive(MD) {
           flex-direction: column;
         }
         .footer__secondary-left {
@@ -239,19 +239,19 @@
             border-bottom: none;
             padding-top: 30px;
             display: flex;
-            @include Responesive(MD) {
+            @include Responsive(MD) {
               border-bottom: 1px solid #788691;
             }
             li {
               padding-right: 70px;
-              @include Responesive(MD) {
+              @include Responsive(MD) {
                 padding: 20px 0;
               }
               a {
                 color: #37a9e8;
                 font-size: 1.8rem;
                 text-decoration: none;
-                @include Responesive(MD) {
+                @include Responsive(MD) {
                   font-size: 1.4rem;
                 }
                 i {
@@ -260,7 +260,7 @@
                   width: 40px;
                   height: 40px;
                   font-size: 2rem;
-                  @include Responesive(MD) {
+                  @include Responsive(MD) {
                     font-size: 1.6rem;
                     width: 30px;
                     height: 30px;
@@ -272,7 +272,7 @@
                 }
               }
             }
-            @include Responesive(LG) {
+            @include Responsive(LG) {
               .responsive_item {
                 display: none !important;
               }
@@ -283,7 +283,7 @@
           display: flex;
           align-items: center;
           padding: 30px 0 35px 0;
-          @include Responesive(MD) {
+          @include Responsive(MD) {
             flex-direction: column;
             padding: 30px 0 40px 0;
             align-items: flex-start;
@@ -333,7 +333,7 @@
         background-color: #f7f7f7;
         padding-top: 25px;
         padding-bottom: 50px;
-        @include Responesive(XS) {
+        @include Responsive(XS) {
           padding: 25px 15px;
         }
         color: #999;
@@ -358,7 +358,7 @@
             }
           }
           .language_right {
-            @include Responesive(MD) {
+            @include Responsive(MD) {
               display: none !important;
             }
             .brand-logo {
@@ -387,10 +387,10 @@
             }
           }
           .bottom_link {
-            @include Responesive(MD) {
+            @include Responsive(MD) {
               display: inherit !important;
             }
-            @include Responesive(LG) {
+            @include Responsive(LG) {
               max-width: 500px;
             }
             display: flex;
@@ -405,7 +405,7 @@
             }
             .brand-logo-bottom {
               display: none;
-              @include Responesive(MD) {
+              @include Responsive(MD) {
                 display: inherit !important;
               }
               .brand-logo {

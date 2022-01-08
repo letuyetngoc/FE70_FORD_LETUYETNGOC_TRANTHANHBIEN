@@ -25,15 +25,15 @@ body {
 .container_responsive {
   padding-left: 45px;
   padding-right: 45px;
-  @include Responesive(LG) {
+  @include Responsive(LG) {
     padding-left: 30px;
     padding-right: 30px;
   }
-  @include Responesive(MD) {
+  @include Responsive(MD) {
     padding-left: 25px;
     padding-right: 25px;
   }
-  @include Responesive(XS) {
+  @include Responsive(XS) {
     padding-left: 15px;
     padding-right: 15px;
   }
