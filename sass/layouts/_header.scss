@@ -1,4 +1,8 @@
 .header {
+  display: block;
+  @include Responsive(XS) {
+    display: none;
+  }
   .header-top {
     background-color: #f3f3f3;
     @include Responsive(XS) {
